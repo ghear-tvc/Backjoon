@@ -1,3 +1,1 @@
-a = input()
-b = int(input())
-print(a[b-1])
+print(input()[int(input())-1])
