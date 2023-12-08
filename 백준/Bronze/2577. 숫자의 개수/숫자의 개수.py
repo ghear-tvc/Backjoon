@@ -1,6 +1,5 @@
-a = int(input())
-b = int(input())
-c = int(input())
-mul = str(a*b*c)
+p = 1
+for i in range(3) :
+    p *= int(input())
 for i in range(10) :
-    print(mul.count(str(i)))
+    print(str(p).count(str(i)))
